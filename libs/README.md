@@ -21,4 +21,4 @@ pnpm start
 
 - TypeScript にする。
   - tsc watch つける
-- Rollup で bundle する。
+- esbuild で bundle する。→ done. `pnpm build`
