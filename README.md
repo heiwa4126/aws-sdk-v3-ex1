@@ -10,8 +10,8 @@ proxy 対応 (環境変数 https_proxy があると proxy 経由)。
 ## 実行
 
 ```bash
-pnpm i
-pnpm start
+pnpm install
+pnpm run start
 ```
 
 (npm でも同様にできます)
@@ -19,7 +19,7 @@ pnpm start
 ## バンドル
 
 ```bash
-pnpm build
+pnpm run build
 # 実行
 node dist/bundle.js
 # or
@@ -32,8 +32,8 @@ NODE_PATH=/dev/null node dist/bundle.js
 
 - TypeScript にする。
   - tsc watch つける。
-- esbuild で bundle する。→ done. `pnpm build`
-- バンドルした奴に shebang 自動でつける。
+- ~~esbuild で bundle する。~~ → done. `pnpm build`
+- バンドルした奴に shebang 自動でつけるしかけを考える。
 
 ## AWS SDK for JavaScript v3 メモ
 
