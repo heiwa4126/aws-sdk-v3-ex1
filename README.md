@@ -11,7 +11,7 @@ proxy 対応 (環境変数 https_proxy があると proxy 経由)。
 
 ```bash
 pnpm install
-pnpm run start
+pnpm run start # or `node .`
 ```
 
 (npm でも同様にできます)
