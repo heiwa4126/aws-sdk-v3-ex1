@@ -17,6 +17,6 @@
     "hpagent": "^1.2.0"
   },
   "devDependencies": {
-    "esbuild": "^0.19.2"
+    "esbuild": "^0.25.0"
   }
 }
