@@ -11,6 +11,8 @@ proxy 対応 (環境変数 https_proxy があると proxy 経由)。
 
 ```bash
 pnpm install
+# 実行
+export AWS_PROFILE=xxxx
 pnpm run start # or `node .`
 ```
 
@@ -21,6 +23,7 @@ pnpm run start # or `node .`
 ```bash
 pnpm run build
 # 実行
+export AWS_PROFILE=xxxx
 node dist/bundle.js
 # or
 NODE_PATH=/dev/null node dist/bundle.js

@@ -1,22 +1,23 @@
 {
-  "name": "ex1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.mjs",
-  "scripts": {
-    "start": "node index.mjs",
-    "build": "node ./build.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@aws-sdk/client-s3": "^3.400.0",
-    "@smithy/node-http-handler": "^2.0.5",
-    "hpagent": "^1.2.0"
-  },
-  "devDependencies": {
-    "esbuild": "^0.25.0"
-  }
+	"name": "ex1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.mjs",
+	"scripts": {
+		"preinstall": "pnpm audit --audit-level high",
+		"start": "node index.mjs",
+		"build": "node ./build.mjs",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.993.0",
+		"@smithy/node-http-handler": "^4.4.10",
+		"hpagent": "^1.2.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.27.3"
+	}
 }
